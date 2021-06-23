@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){let e=document.getElementById("content"),n=document.createElement("H1");n.innerHTML="Brandon's Macaroni Shop",e.appendChild(n);let t=document.createElement("p");t.innerHTML="The best macaroni shop this side of Lake Ontario!",e.appendChild(t);let i=document.createElement("img");i.src="../dist/macaroni-pie.jpeg",e.appendChild(i)}()})();
