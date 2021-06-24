@@ -1,0 +1,45 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#brand {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+#brand > img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+#brand-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#brand-text > h1 {
+    margin-bottom: 0;
+}
+
+#brand-text > p {
+    margin-top: 2px;
+}
+
+@media (max-width: 650px) {
+    #brand {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #brand-text {
+        margin-left: 0px;
+        text-align: center;
+    }
+}
