@@ -39,6 +39,10 @@
     flex: 0.5;
 }
 
+#dynamic-content-item > p {
+    padding: 0px 10px 10px 10px;
+}
+
 #brand-text > p {
     margin-top: 3px;
 }
@@ -60,7 +64,7 @@
     background-color: #f8f8ff;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1100px) {
     #brand {
         flex-direction: column-reverse;
         align-items: center;
