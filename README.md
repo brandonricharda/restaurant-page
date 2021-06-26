@@ -4,6 +4,8 @@ This is my solution to The Odin Project's Restaurant Page assignment, which you 
 
 https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/javascript/lessons/restaurant-page
 
+**Live Version:** https://brandonricharda.github.io/restaurant-page/
+
 ## Application Walkthrough
 
 ### Default Page
